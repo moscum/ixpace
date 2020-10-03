@@ -5,7 +5,7 @@ import Header from "../header/header";
 class Introduction extends Component {
     render() {
         return (
-            <section className={styles.section}>
+            <section className={styles.bg + " section"}>
                 <Header/>
                 <div className="container">
                     <div className="col">

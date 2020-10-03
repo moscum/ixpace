@@ -1,13 +1,7 @@
-.section{
-  position: relative;
-  min-height: 100vh;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+.bg{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
               linear-gradient(180deg, rgba(5, 8, 14, 0) 70%, #000 100%),
-              center url(bg.jpg) no-repeat;
-  background-size: cover;
-  @media (max-width: 575.98px) {
-    min-height: 0;
-  }
+              url(bg.jpg);
 }
 .title{
   align-self: center;

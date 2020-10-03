@@ -130,6 +130,16 @@ h6 {
     max-width: 1320px;
   }
 }
+.section{
+  position: relative;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (max-width: 575.98px) {
+    min-height: 0;
+  }
+}
 .row {
   display: flex;
   display: -ms-flexbox;
@@ -149,7 +159,6 @@ h6 {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
-
 .btn_flash{
   content: "";
   background-color: rgba(255, 255, 255, 0.5);
@@ -164,14 +173,11 @@ h6 {
   -webkit-transition: none;
   transition: none;
 }
-
 .btn_lighting {
   -moz-animation: btn_moving 3s ease-in-out infinite;
   -o-animation: btn_moving 3s ease-in-out infinite;
   animation: btn_moving 3s ease-in-out infinite;
-
 }
-
 @keyframes btn_moving {
   30% {
     transform: skewX(-45deg) translateX(33.5em);
