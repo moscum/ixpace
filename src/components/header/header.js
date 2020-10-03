@@ -5,8 +5,8 @@ import logo from "./logo.png";
 class Header extends Component {
     render() {
         return (
-            <header className={styles.header}>
-                <img className={styles.header_logo} src={logo} alt={'logo'}/>
+            <header className={styles.container}>
+                <img className={styles.logo} src={logo} alt={'logo'}/>
             </header>
         );
     }
