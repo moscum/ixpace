@@ -20,7 +20,7 @@ class Intro extends Component {
                             <form className={styles.registration_block_form+" row"}>
                                     <input className={styles.registration_block_input} placeholder="+7 (999) 999-99-99"
                                            maxLength="12"/>
-                                    <button className={styles.registration_block_button + ' ' + styles.autoflash}><div className={styles.flash + ' ' + styles.lighting}/>ЗАРЕГИСТРИРОВАТЬСЯ</button>
+                                    <button className={styles.registration_block_button + " btn_autoflash"}><div className="btn_flash btn_lighting"/>ЗАРЕГИСТРИРОВАТЬСЯ</button>
                             </form>
                             <p className={styles.registration_block_login}>У Вас уже есть аккаунт?
                                 <a className={styles.registration_block_login__link} href="https://google.com">Войдите!</a>

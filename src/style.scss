@@ -143,3 +143,41 @@ h6 {
   flex: 0 0 100%;
   width: 100%;
 }
+.btn_autoflash{
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.btn_flash{
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 3em;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -4.5em;
+  -webkit-transform: skewX(-45deg) translateX(0);
+  transform: skewX(-45deg) translateX(0);
+  -webkit-transition: none;
+  transition: none;
+}
+
+.btn_lighting {
+  -moz-animation: btn_moving 3s ease-in-out infinite;
+  -o-animation: btn_moving 3s ease-in-out infinite;
+  animation: btn_moving 3s ease-in-out infinite;
+
+}
+
+@keyframes btn_moving {
+  30% {
+    transform: skewX(-45deg) translateX(33.5em);
+  }
+
+  100% {
+    transform: skewX(-45deg) translateX(33.5em);
+  }
+}
