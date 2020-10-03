@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import styles from './intro.module.scss'
+import styles from './introduction.module.scss'
 import Header from "../header/header";
 
-class Intro extends Component {
+class Introduction extends Component {
     render() {
         return (
             <section className={styles.section}>
@@ -34,4 +34,4 @@ class Intro extends Component {
     }
 }
 
-export default Intro;
+export default Introduction;

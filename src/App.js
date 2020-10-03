@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.scss';
-import Intro from "./components/intro/intro";
+import Introduction from "./components/introduction/introduction";
 
 function App() {
   return (
     <div className="wrapper">
-        <Intro/>
+        <Introduction/>
     </div>
   );
 }
