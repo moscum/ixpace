@@ -46,12 +46,14 @@
     text-align: left;
   }
   @media (max-width: 575.98px){
+    align-items: center;
     &_title{
       line-height: 18px;
       margin-bottom: 15px;
+      text-align: right;
     }
     &_row{
-      justify-content: center;
+      max-width: 300px;
     }
   }
 }
@@ -61,7 +63,7 @@
   margin-right: 30px;
 
   &:nth-child(3){
-    margin-top: 25px;
+    margin: 25px 0 0;
   }
   &_text{
     font-size: 25px;
