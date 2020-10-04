@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.scss';
-import Introduction from "./components/introduction/introduction";
+import Header from "./components/header/header";
 
 function App() {
   return (
     <div className="wrapper">
-        <Introduction/>
+        <Header/>
     </div>
   );
 }
