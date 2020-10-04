@@ -16,7 +16,7 @@ class Introduction extends Component {
                             Пройдите бесплатную регистрацию за 17 секунд и получите обучение и пошаговый план для создания своего online-бизнеса с гарантией результата
                         </h2>
                         <div className={styles.registration_block}>
-                            <h3 className={styles.registration_block_title}>Для регистрации и доступа к платформе введите номер телефона<br/>в международном формате</h3>
+                            <h3 className={styles.registration_block_title}>Для регистрации и доступа к платформе введите номер телефона</h3>
                             <form className={styles.registration_block_form+" row"}>
                                     <input className={styles.registration_block_input} placeholder="+7 (999) 999-99-99"
                                            maxLength="12"/>
