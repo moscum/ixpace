@@ -50,6 +50,9 @@
       line-height: 18px;
       margin-bottom: 15px;
     }
+    &_row{
+      justify-content: center;
+    }
   }
 }
 .result_item{
@@ -82,7 +85,6 @@
 
   @media (max-width: 575.98px){
     justify-content: center;
-    margin-left: -27px;
   }
 }
 .planet_item{
@@ -131,6 +133,7 @@
       width: 100px;
       vertical-align: middle;
       z-index: 1;
+      margin-left: -100px;
     }
   }
   &:nth-child(1){
@@ -199,6 +202,6 @@
     min-height: 0;
     height: 60px;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: center;
   }
 }

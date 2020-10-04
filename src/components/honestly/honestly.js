@@ -21,7 +21,7 @@ class Honestly extends Component {
                         <div className={styles.content + " row"}>
                             <div className={styles.result_block + " col"}>
                                 <h1 className={styles.result_block_title}>РЕЗУЛЬТАТ КАК ПРАВИЛО ОДИН<br/>- ЭТО ПОТЕРЯ:</h1>
-                                <div className="row">
+                                <div className={styles.result_block_row + " row"}>
                                     <div className={styles.result_item}>
                                         <img src={images['time.png']} alt="time" className={styles.result_item_img}/>
                                         <p className={styles.result_item_text}>ВРЕМЕНИ</p>
