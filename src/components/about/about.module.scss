@@ -127,7 +127,9 @@
   margin-right: 40px;
 
   @media (max-width: 575.98px){
+    margin: 0;
     height: 200px;
+    display: block;
   }
 }
 .content{}
