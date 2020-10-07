@@ -5,6 +5,7 @@ import Honestly from "./components/honestly/honestly";
 import About from "./components/about/about";
 import Availability from "./components/availability/availability";
 import Platform from "./components/platform/platform";
+import Steps from "./components/steps/steps";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About/>
         <Availability/>
         <Platform/>
+        <Steps/>
     </div>
   );
 }
