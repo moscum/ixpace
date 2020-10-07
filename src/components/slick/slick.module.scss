@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  margin-bottom: 190px;
+
+  @media (max-width: 575.98px){
+    margin-bottom: 130px;
+  }
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 245px;
+  height: 245px;
+  background: #C4C4C4;
+  margin: 0 auto;
+
+  @media (max-width: 575.98px){
+    width: 211px;
+    height: 211px;
+
+    &_play{
+      width: 85px;
+    }
+  }
+}
+.arrow {
+  right: -50px;
+  &:before{
+    content: '';
+    background: url("arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    display: block;
+    transition: .3s;
+  }
+
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  padding: 0;
+  cursor: pointer;
+  &_p{
+    @extend .arrow;
+    left: -50px;
+    &:before{
+      transform: rotate(180deg);
+    }
+  }
+
+  @media (max-width: 575.98px){
+    right: -25px;
+    &:before{
+      width: 20px;
+      height: 20px;
+    }
+    &_p{
+      left: -25px;
+    }
+  }
+}
+.dots_container{
+  display: flex;
+  justify-content: center;
+  > li, li > div{
+    width: 34px;
+    height: 3px;
+    margin: 0 13px;
+    background: #FFFFFF;
+    transition: .3s;
+
+    &:nth-child(1){
+      margin-left: 0;
+    }
+    &:nth-last-child(1){
+      margin-right: 0;
+    }
+    @media (max-width: 575.98px){
+      width: 19px;
+      height: 2px;
+      margin: 0 7.5px;
+    }
+  }
+}

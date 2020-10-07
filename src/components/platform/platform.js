@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from "./platform.module.scss"
+import styles from './platform.module.scss'
 import earth from './earth.png'
+import Slick from "../slick/slick";
 
 export default function Platform() {
     return (
@@ -45,6 +46,8 @@ export default function Platform() {
                             </p>
                         </div>
                     </div>
+                    <h1 className={styles.title_slider}>ВОТ ЧТО ГОВОРЯТ ПОЛЬЗОВАТЕЛИ</h1>
+                    <Slick/>
                 </div>
             </div>
         </section>

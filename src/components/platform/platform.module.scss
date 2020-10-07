@@ -14,11 +14,20 @@
   padding-top: 80px;
   margin-bottom: 7px;
 
+  &_slider{
+    @extend .title;
+    padding-top: 0;
+    margin-bottom: 45px;
+  }
+
   @media (max-width: 575.98px){
     font-size: 15px;
     line-height: 18px;
     padding-top: 30px;
     margin-bottom: 0;
+    &_slider{
+      margin-bottom: 25px;
+    }
   }
 }
 .subtitle{
