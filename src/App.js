@@ -6,6 +6,7 @@ import About from "./components/about/about";
 import Availability from "./components/availability/availability";
 import Platform from "./components/platform/platform";
 import Steps from "./components/steps/steps";
+import Changes from "./components/changes/changes";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Availability/>
         <Platform/>
         <Steps/>
+        <Changes/>
     </div>
   );
 }
