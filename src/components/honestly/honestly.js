@@ -46,7 +46,7 @@ class Honestly extends Component {
                                     <img src={images['planet_2.png']} alt="planet" className={styles.planet_item_img}/>
                                 </div>
                                 <div className={styles.planet_item}>
-                                    <p className={styles.planet_item_text}>ТОП-МАРАФОН “КАК ПОДНЯТЬ МИЛЛИОН”</p>
+                                    <p className={styles.planet_item_text}>Марафоны "как поднять миллион"</p>
                                     <img src={images['planet_3.png']} alt="planet" className={styles.planet_item_img}/>
                                 </div>
                                 <div className={styles.planet_item}>

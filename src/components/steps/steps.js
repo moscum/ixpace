@@ -33,9 +33,7 @@ class Steps extends Component {
                             <div className={styles.item + " col"}>
                                 <h1 className={styles.item_num}>4</h1>
                                 <p className={styles.item_text}>
-                                    Более продвинутые уровни обучения
-                                    позволят вам масштабировать своЙ
-                                    бизнес из любой точки мира
+                                    Масштабируйте бизнес
                                 </p>
                             </div>
                         </div>

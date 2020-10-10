@@ -12,10 +12,10 @@ class Header extends Component {
                 <div className="container">
                     <div className="col">
                         <h1 className={styles.title}>
-                            Получите доступ к online-платформе<br/>и уже через 5 дней запустите свой online-бизнес
+                            ПОЛУЧИТЕ БЕСПЛАТНЫЙ ДОСТУП К УНИКАЛЬНОЙ ONLINE-ПЛАТФОРМЕ И УЖЕ ЧЕРЕЗ 5 ДНЕЙ ЗАПУСТИТЕ СВОЙ ONLINE-БИЗНЕС
                         </h1>
                         <h2 className={styles.subtitle}>
-                            Пройдите бесплатную регистрацию за 17 секунд и получите обучение и пошаговый план для создания своего online-бизнеса с гарантией результата
+                            Пройдите бесплатную регистрацию за 17 сек и получите обучение + пошаговый план для запуска своего online-бизнеса с гарантией результата
                         </h2>
                         <div className={styles.registration_block}>
                             <h3 className={styles.registration_block_title}>Для регистрации и доступа к платформе введите номер телефона</h3>

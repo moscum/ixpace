@@ -13,7 +13,7 @@ class About extends Component {
                         <h1>- ПЛАТФОРМА ДЛЯ ЛЮДЕЙ</h1>
                     </div>
                     <h2 className={styles.subtitle}>
-                        Она ломает привычные вам шаблоны о получении прибыли online<br/>
+                        Она ломает привычные вам шаблоны о получении прибыли online
                         и включает в себя:
                     </h2>
                     <div className={styles.col}>
