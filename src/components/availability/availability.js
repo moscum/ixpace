@@ -13,7 +13,7 @@ const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/
 export default function Availability() {
     const isMobile = useMediaQuery({ query: '(max-width: 575.98px)' })
     return (
-        <section className={styles.bg + " section"}>
+        <section className="section">
             <div className="container">
                 <h1 className={styles.title}>ЕЩЕ НИКОГДА ONLINE-БИЗНЕС НЕ БЫЛ ТАК ПРОСТ И ДОСТУПЕН, ОСОБЕННО ДЛЯ:</h1>
                 <div className={styles.row + " row"}>

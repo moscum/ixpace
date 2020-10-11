@@ -4,7 +4,7 @@ import styles from './steps.module.scss'
 class Steps extends Component {
     render() {
         return (
-            <section className={styles.bg + " section"}>
+            <section className="section">
                 <div className="container">
                     <div className={styles.content +" col"}>
                         <h1 className={styles.title}>КАКИЕ МОИ ДАЛЬНЕЙШИЕ ШАГИ?</h1>

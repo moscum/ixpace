@@ -5,7 +5,7 @@ import Slick from "../slick/slick";
 
 export default function Platform() {
     return (
-        <section className={styles.bg + " section"}>
+        <section className="section">
             <div className="container">
                 <div className={styles.content +" col"}>
                     <h1 className={styles.title}>ЭТО БЕСПЛАТНО? ДА!</h1>

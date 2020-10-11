@@ -6,7 +6,7 @@ import laptop from "./laptop.png"
 class About extends Component {
     render() {
         return (
-            <section className={styles.bg + " section"}>
+            <section className="section">
                 <div className="container">
                     <div className={styles.title}>
                         <img src={logo} alt="logo"/>

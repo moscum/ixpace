@@ -13,7 +13,7 @@ const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/
 class Honestly extends Component {
     render() {
         return (
-            <section className={styles.bg + " section"}>
+            <section className="section">
                 <div className="container">
                     <div className="col" style={{alignItems: 'center'}}>
                         <h1 className={styles.title}>ДАВАТЕ ПО-ЧЕСТНОМУ</h1>

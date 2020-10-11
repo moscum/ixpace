@@ -6,7 +6,7 @@ import earth from "./earth.png";
 class Changes extends Component {
     render() {
         return (
-            <section className={styles.bg + " section"}>
+            <section className="section">
                 <img className={styles.img} src={earth} alt="earth"/>
                 <div className="container">
                     <div className={styles.content + " col"}>
