@@ -29,9 +29,9 @@ class About extends Component {
                             </div>
                         </div>
                         <div className={styles.row}>
-                            <p className={styles.text__c}>Социальную экосистему, которая
-                                объединяет людей с общими интересами
-                                и взглядами на жизнь</p>
+                            <p className={styles.text__c}>
+                                ОКРУЖЕНИЕ ЕДИНОМЫШЛЕННИКОВ
+                            </p>
                             <p className={styles.text__c}>Готовую масштабируемую бизнес-модель
                                 для запуска своего online-бизнеса
                                 в любой точке мира</p>
